@@ -1,0 +1,260 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Kumbh Sans', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.navbar{
+
+    background: linear-gradient(to left,#1f1c18 10%, #8e0e00 50%, #1f1c18 90%);
+    height: 90px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: sticky;
+    top:0;
+    z-index: 999;
+}
+
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    height: 90px;
+    z-index: 1;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
+#navbar-logo{
+    position: relative;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-bottom:-130px ;
+    transition: all 0.5s ease;
+}
+
+#navbar-logo:hover{
+    margin-bottom: -110px;
+    transition: all 0.5s ease;
+}
+
+.navbar__menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.navbar_item{
+    height: 80px;
+}
+
+.navbar__links{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 125px;
+    height: 100%;
+    text-decoration: none;
+    transition: all 1.0s ease;
+    margin: 1px;
+
+}
+
+.navbar_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1rem;
+    width: 100%;
+    text-decoration: none;
+
+}
+
+.button{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 10px 20px;
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    border-radius: 17px;
+    background: linear-gradient(to right, #a73737, #7a2828);
+    transition: all 0.9s ease;
+}
+
+.navbar__links:hover{
+    color:#993636;
+    transition: all 0.5s ease;
+}
+
+.button:hover{
+    background: linear-gradient(to right, #c55858, #ac3b3b);
+    transition: all 0.5s ease;
+}
+
+.title1{
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    position: relative;
+    left: 97px;
+    font-size: larger;
+
+}
+
+.title2{
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    position: relative;
+    right: 87px;
+    font-size:larger;
+
+}
+
+.crt{
+    transition: all 2.0s ease;
+}
+
+.crt:hover{
+    transition: all 2.0s ease;
+    position: relative;
+    bottom: 7px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.kids-meals-container{
+    width: 1200px;
+    background-color: red;
+    position: relative;
+    border-radius: 20px;
+    top: 180px;
+    height: 70px;
+    left: 65px;
+}
+
+.kids-meals-header{
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+    font-size: 45px;
+}
+
+.nugget-container{
+    width: 600px;
+    background-color: red;
+    position: relative;
+    left: 60px;
+    top: 200px;
+    height:250px;
+    border-radius: 20px;
+}
+
+.nugget-img{
+    padding-top:20px;
+}
+
+.nuggets-img-small{
+    width: 120px;
+    position: relative;
+    left: 20px;
+    top: 20px;
+}
+
+.nugget-details{
+    float: right;
+    position: relative;
+    top: 25px;
+    right: 55px;
+    color: white;
+    font-size: 25px;
+}
+
+.nuggets-add{
+    width: 200px;
+    border-radius: 8px;
+    height: 35px;
+    background-color: lime;
+    cursor: pointer;
+}
+
+.nuggets-remove{
+    width: 200px;
+    border-radius: 8px;
+    height: 35px;
+    background-color: darkred;
+    display:none;
+    cursor: pointer;
+}
+
+.nuggets-paragraph{
+    opacity: 20%;
+}
+
+.cart-content{
+    float:left;
+    padding-top: 150px;
+    padding-left: 160px;
+    font-size: 25px;
+}
+
+.order-summary{
+    float: right;
+    padding-top: 150px;
+    padding-right: 250px;
+    font-size: 25px;
+}
+
+.lines-left{
+    width:600px;
+}
+
+.lines-right{
+    width:300px;
+}
+
+.checkout{
+    height: 60px;
+    width: 230px;
+    font-size: x-large;
+    background-color: red;
+    color: white;
+    border-color: white;
+    cursor:pointer;
+    border-radius: 30px;
+}
+
+.checkout:hover{
+    background-color: #8e0e00;
+}
+
+.address-textbox{
+    height: 30px;
+}
