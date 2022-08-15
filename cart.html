@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>My Cart</title>
+    <link rel="stylesheet" href="cart_style.css">
+</head>
+<body> 
+    <nav class="navbar">
+        <div class="navbar-container">
+            <ul class="navbar__menu">
+                <li class="navbar_item">
+                    <a href="#home" class="navbar__links" id="home-page">Home</a>
+                </li>
+                <li class="navbar_item">
+                    <a href="#Account" class="navbar__links" id="Account">Account</a>
+                </li>
+                <li>
+                    <a href="#menu" class="navbar__links" id="menu_page">Menu</a>
+                </li>
+                </ul>
+                <a href="#home" class="title1"><h1>Chick</h1></a>
+                <a href="#home" id="navbar-logo"><img src="logo7.png" id="logo" width="335px" height="291px"  alt=""></a>
+                <a href="#home" class="title2"><h1>Out</h1></a>
+                <ul class="navbar__menu">
+                <li>
+                    <a href="cart"class="navbar__links crt" id="#cart-page" alt=""><img src="cart 2.png" width="70px" height="63px"></a>
+                </li>
+                <li class="navbar_item">
+                    <a href="#About us" class="navbar__links" id="About-page">About Us</a>
+                </li>
+                <li class="navbar_btn">
+                    <a href="#sign-up" class="button" id="sign-up">Sign Up</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+
+
+
+
+
+
+    <div class="kids-meals-container">
+        <p class="kids-meals-header">Kids Meals</p>
+    </div>
+    
+    <div class="nugget-container">
+        <img src="nuggets.png" class="nugget-img">
+        <div class="nugget-details">
+            <p>Chicken Nuggets</p>
+            <br>
+            <p>20 EGP</p>
+            <br>
+            <button class="nuggets-add" onclick="nuggets_add()">Add to Cart</button>
+            <button id="nugget_remove" class="nuggets-remove" onclick="nuggets_remove()">Remove from cart</button>
+        </div>
+    </div>
+    
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+    <div class="cart-body-container">
+        <div class="cart-content">
+            <h3>My cart</h3>
+            <br>
+            <hr class="lines-left">
+            <br>
+            <p id="nuggets_paragraph" class="nuggets-paragraph">x<span id="nuggets_counter"></span>  Chicken nuggets , Price : <span id="nuggets_price"></span> EGP <img class="nuggets-img-small" src="nuggets.png"></p>
+        </div>
+
+        <div class="order-summary">
+            <h4>Order summary</h4>
+            <br>
+            <hr class="lines-right">
+            <br>
+            <p>Subtotal : EGP <span id="sub"></span></p>
+            <br>
+            <p>Shipping : EGP 20</p>
+            <br>
+            <form onsubmit="confirm_purchase()">
+                <label>Address </label>
+                <input type="text" required placeholder="Your Address" name="user-address" class="address-textbox">
+                <br> <br>
+                <hr class="lines-right">
+                <br>
+                <p>Total : EGP <span id="total"></span></p>
+                <br>
+                <input type="submit" class="checkout" value="Checkout">
+            </form>
+        </div>
+    </div>
+
+
+
+    <script src="cart_java.js"></script>
+</body>
+</html>
