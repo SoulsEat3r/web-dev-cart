@@ -1,0 +1,84 @@
+<div class="kids_meals_container">
+        <p class="kids_meals_header">Kids Meals</p>
+    </div>
+    
+    <div class="nugget_container">
+        <img src="nuggets.png" class="nugget_img">
+        <div class="nugget_details">
+            <p>Chicken Nuggets</p>
+            <br>
+            <p>20 EGP</p>
+            <br>
+            <button class="nuggets_add" onclick="nuggets_add()">Add to Cart</button>
+            <button id="nugget_remove_btnid" class="nuggets_remove" onclick="nuggets_remove()">Remove from cart</button>
+        </div>
+    </div>
+
+    <div class="kids_chicken_burger_container">
+        <img src="kidschickenburger.png" class="kids_chicken_burger_img">
+        <div class="kids_chicken_burger_details">
+            <p>Chicken Burger Meal</p>
+            <p>(with fries , cola and a toy)</p>
+            <br>
+            <p>50 EGP</p>
+            <br>
+            <button class="kids_chicken_burger_add_btn" onclick="kids_chicken_burger_add()">Add to Cart</button>
+            <button id="kids_chicken_burger_remove_btnid" class="kids_chicken_burger_remove_btn" onclick="kids_chicken_burger_remove()">Remove from cart</button>
+        </div>
+    </div>
+
+    <div class="main_meals_container">
+        <p class="main_meals_header">Main Meals</p>
+    </div>
+
+    <div class="double_chicken_container">
+        <img src="doublechicken.png" class="double_chicken_img">
+        <div class="double_chicken_details">
+            <p>Double Chicken Sandwich</p>
+            <br>
+            <p>60 EGP</p>
+            <br>
+            <button class="double_chicken_addbtn" onclick="double_chicken_add()">Add to Cart</button>
+            <button id="double_chicken_remove_btnid" class="double_chicken_remove_btn" onclick="double_chicken_remove()">Remove from cart</button>
+        </div>
+    </div>
+
+    
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+    <div class="cart_body_container">
+        <div class="cart_content">
+            <h3>My cart</h3>
+            <br>
+            <hr class="lines_left">
+            <br>
+            <p id="nuggets_paragraphid" class="nuggets_paragraph">x<span id="nuggets_counter"></span>  Chicken nuggets , Price : <span id="nuggets_price"></span> EGP <img class="nuggets_img_small" src="nuggets.png"></p>
+            <br>
+            <p id="kids_chicken_burger_paragraphid" class="kids_chicken_burger_paragraph">x<span id="kids_chicken_burger_counter"></span>  Chicken Burger Meal , Price : <span id="kids_chicken_burger_price"></span> EGP <img class="kids_chicken_burger_img_small" src="kidschickenburger.png"></p>
+            <br>
+            <p id="double_chicken_paragraphid" class="double_chicken_paragraph">x<span id="double_chicken_counter"></span> Double Chicken Sandwich , Price : <span id="double_chicken_price"></span> EGP <img class="double_chicken_img_small" src="doublechicken.png"></p>
+        </div>
+
+        <div class="order_summary">
+            <h4>Order summary</h4>
+            <br>
+            <hr class="lines_right">
+            <br>
+            <p>Subtotal : EGP <span id="sub"></span></p>
+            <br>
+            <p>Shipping : EGP 20</p>
+            <br>
+            <form onsubmit="confirm_purchase()">
+                <label>Address </label>
+                <input type="text" required placeholder="Your Address" name="user-address" class="address_textbox">
+                <br> <br>
+                <hr class="lines_right">
+                <br>
+                <p>Total : EGP <span id="total"></span></p>
+                <br>
+                <input type="submit" class="checkout" value="Checkout">
+            </form>
+        </div>
+    </div>
+  
+    <br><br>
