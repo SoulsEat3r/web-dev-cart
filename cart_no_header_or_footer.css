@@ -1,0 +1,244 @@
+.kids_meals_container{
+    width: 1200px;
+    background-color: red;
+    position: relative;
+    border-radius: 20px;
+    top: 180px;
+    height: 70px;
+    left: 65px;
+}
+
+.kids_meals_header{
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+    font-size: 45px;
+}
+
+.main_meals_container{
+    width: 1200px;
+    background-color: deepskyblue;
+    position: relative;
+    border-radius: 20px;
+    top: 220px;
+    height: 70px;
+    left: 65px;
+}
+
+.main_meals_header{
+    left: 450px;
+    color: white;
+    padding-top: 10px;
+    font-size: 45px;
+    text-align: center;
+    position: relative;
+    width:300px
+}
+
+.nugget_container{
+    width: 600px;
+    background-color: red;
+    position: relative;
+    left: 60px;
+    top: 200px;
+    height:250px;
+    border-radius: 20px;
+}
+
+.nugget_img{
+    padding-top:20px;
+}
+
+.nuggets_img_small{
+    width: 120px;
+    position: relative;
+    left: 20px;
+    top: 20px;
+}
+
+.nugget_details{
+    float: right;
+    position: relative;
+    top: 25px;
+    right: 55px;
+    color: white;
+    font-size: 25px;
+}
+
+.nuggets_add{
+    width: 200px;
+    border-radius: 8px;
+    height: 35px;
+    background-color: lime;
+    cursor: pointer;
+}
+
+.nuggets_remove{
+    width: 200px;
+    border-radius: 8px;
+    height: 35px;
+    background-color: darkred;
+    display:none;
+    cursor: pointer;
+}
+
+.nuggets_paragraph{
+    opacity: 20%;
+    position: relative;
+    bottom: 35px;
+}
+
+.kids_chicken_burger_container{
+    float: right;
+    width: 600px;
+    background-color: red;
+    position: relative;
+    height: 250px;
+    bottom: 50px;
+    border-radius: 20px;
+    right: 80px;
+}
+
+.kids_chicken_burger_img{
+    position: relative;
+    padding-top: 20px;
+    right: 20px;
+}
+
+.kids_chicken_burger_img_small{
+    width: 130px;
+    position: relative;
+    top: 23px;
+}
+
+.kids_chicken_burger_details{
+    float: right;
+    position: relative;
+    top: 25px;
+    right: 35px;
+    color: white;
+    font-size: 25px;
+}
+
+.kids_chicken_burger_add_btn{
+    width: 200px;
+    border-radius: 8px;
+    height: 35px;
+    background-color: lime;
+    cursor: pointer;
+    position: relative;
+    bottom: 15px;
+}
+
+.kids_chicken_burger_remove_btn{
+    width: 200px;
+    border-radius: 8px;
+    height: 35px;
+    background-color: darkred;
+    display:none;
+    cursor: pointer;
+    position: relative;
+    bottom: 15px;
+}
+
+.kids_chicken_burger_paragraph{
+    opacity: 20%;
+    position: relative;
+    bottom: 70px;
+}
+
+.double_chicken_container{
+    width: 600px;
+    background-color: deepskyblue;
+    position: relative;
+    left: 60px;
+    top: 240px;
+    height:250px;
+    border-radius: 20px;
+}
+
+.double_chicken_img{
+    padding-top:20px;
+    width: 200px;
+    position: relative;
+    left: 25px;
+}
+
+.double_chicken_details{
+    float: right;
+    position: relative;
+    top: 25px;
+    right: 55px;
+    color: white;
+    font-size: 25px;
+}
+
+.double_chicken_addbtn{
+    width: 200px;
+    border-radius: 8px;
+    height: 35px;
+    background-color: lime;
+    cursor: pointer;
+}
+
+.double_chicken_remove_btn{
+    width: 200px;
+    border-radius: 8px;
+    height: 35px;
+    background-color: darkred;
+    display:none;
+    cursor: pointer;
+}
+
+.double_chicken_paragraph{
+    opacity: 20%;
+    position: relative;
+    bottom: 95px;
+}
+
+.double_chicken_img_small{
+    width: 70px;
+    position: relative;
+    top: 23px;
+}
+
+.cart_content{
+    float: left;
+    font-size: 25px;
+    position: relative;
+    left: 150px;
+}
+
+.order_summary{
+    font-size: 25px;
+    position: relative;
+    bottom: 0;
+    left: 220px;
+}
+
+.lines_left{
+    width:600px;
+}
+
+.lines_right{
+    width:300px;
+}
+
+.checkout{
+    height: 60px;
+    width: 230px;
+    font-size: x-large;
+    background-color: red;
+    color: white;
+    border-color: white;
+    cursor:pointer;
+    border-radius: 30px;
+}
+
+.checkout:hover{
+    background-color: #8e0e00;
+}
+
+.address_textbox{
+    height: 30px;
+}
