@@ -128,6 +128,7 @@
     cursor: pointer;
     position: relative;
     bottom: 15px;
+    left:40px;
 }
 
 .kids_chicken_burger_remove_btn{
@@ -139,12 +140,127 @@
     cursor: pointer;
     position: relative;
     bottom: 15px;
+    left:40px;
 }
 
 .kids_chicken_burger_paragraph{
     opacity: 20%;
     position: relative;
     bottom: 70px;
+}
+
+.kids_chicken_leg_container{
+    width: 600px;
+    background-color: red;
+    position: relative;
+    left: 60px;
+    top: 210px;
+    float:left;
+    height:250px;
+    border-radius: 20px;
+}
+
+.kids_chicken_leg_img{
+    width: 270px;
+    position: relative;
+    bottom: 23px;
+}
+
+.kids_chicken_leg_details{
+    float: right;
+    position: relative;
+    top: 25px;
+    right: 55px;
+    color: white;
+    font-size: 25px;
+}
+
+.kids_chicken_leg_add_btn{
+    width: 200px;
+    border-radius: 8px;
+    height: 35px;
+    background-color: lime;
+    cursor: pointer;
+}
+
+.kids_chicken_leg_remove_btn{
+    width: 200px;
+    border-radius: 8px;
+    height: 35px;
+    background-color: darkred;
+    display:none;
+    cursor: pointer;
+}
+
+.kids_chicken_leg_paragraph{
+    opacity: 20%;
+    bottom: 137px;
+    position: relative;
+}
+
+.kids_chicken_leg_img_small{
+    width: 130px;
+    position: relative;
+    top: 29px;
+}
+
+.kids_chicken_strips_container{
+    float: right;
+    width: 600px;
+    background-color: red;
+    position: relative;
+    height: 250px;
+    bottom: 40px;
+    border-radius: 20px;
+    right: 80px;
+}
+
+.kids_chicken_strips_img{
+    position: relative;
+    padding-top: 42px;
+    right: -13px;
+}
+
+.kids_chicken_strips_details{
+    float: right;
+    position: relative;
+    top: 25px;
+    right: 35px;
+    color: white;
+    font-size: 25px;
+}
+
+.kids_chicken_strips_add_btn{
+    width: 200px;
+    border-radius: 8px;
+    height: 35px;
+    background-color: lime;
+    cursor: pointer;
+    position: relative;
+    bottom: 15px;
+}
+
+.kids_chicken_strips_remove_btn{
+    width: 200px;
+    border-radius: 8px;
+    height: 35px;
+    background-color: darkred;
+    display:none;
+    cursor: pointer;
+    position: relative;
+    bottom: 15px;
+}
+
+.kids_chicken_strips_paragraph{
+    opacity: 20%;
+    bottom: 166px;
+    position: relative;
+}
+
+.kids_chicken_strips_img_small{
+    width: 130px;
+    position: relative;
+    top: 22px;
 }
 
 .double_chicken_container{
@@ -193,13 +309,312 @@
 .double_chicken_paragraph{
     opacity: 20%;
     position: relative;
-    bottom: 95px;
+    bottom: 195px;
 }
 
 .double_chicken_img_small{
     width: 70px;
     position: relative;
     top: 23px;
+}
+
+.family_box_container{
+    width: 600px;
+    background-color: deepskyblue;
+    position: relative;
+    right: 80px;
+    float: right;
+    bottom: 10px;
+    height: 250px;
+    border-radius: 20px;
+}
+
+.family_box_details{
+    float: right;
+    position: relative;
+    color: white;
+    font-size: 25px;
+    top: 23px;
+    right: 65px;
+}
+
+.family_box_details_paragraph{
+    font-size: 15px;
+}
+
+.family_box_img{
+    padding-top:20px;
+    width: 200px;
+    position: relative;
+    left: 25px;
+}
+
+.family_box__addbtn{
+    width: 200px;
+    border-radius: 8px;
+    height: 35px;
+    background-color: lime;
+    cursor: pointer;
+    position: relative;
+    bottom: 15px;
+}
+
+.family_box_remove_btn{
+    width: 200px;
+    border-radius: 8px;
+    height: 35px;
+    background-color: darkred;
+    display:none;
+    cursor: pointer;
+    position: relative;
+    bottom: 15px;
+}
+
+.family_box_paragraph{
+    opacity: 20%;
+    position: relative;
+    bottom: 226px;
+}
+
+.family_box_img_small{
+    width: 70px;
+    position: relative;
+    top: 23px;
+}
+
+.double_down_container{
+    width: 600px;
+    background-color: deepskyblue;
+    right: 610px;
+    position: relative;
+    top: 36px;
+    height: 250px;
+    border-radius: 20px;
+}
+
+.double_down_img{
+    padding-top: 50px;
+    width: 230px;
+    position: relative;
+    left: 30px;
+}
+
+.double_down_details{
+    float: right;
+    position: relative;
+    top: 32px;
+    right: 96px;
+    color: white;
+    font-size: 25px;
+}
+
+.double_down__addbtn{
+    width: 200px;
+    border-radius: 8px;
+    height: 35px;
+    background-color: lime;
+    cursor: pointer;
+}
+
+.double_down_remove_btn{
+    width: 200px;
+    border-radius: 8px;
+    height: 35px;
+    background-color: darkred;
+    display:none;
+    cursor: pointer;
+}
+
+.double_down_paragraph{
+    opacity: 20%;
+    position: relative;
+    bottom: 239px;
+}
+
+.double_down_img_small{
+    width: 77px;
+    position: relative;
+    top: 15px;
+    left: 6px;
+}
+
+.twister_container{
+    width: 600px;
+    background-color: deepskyblue;
+    position: relative;
+    top: 253px;
+    left: 523px;
+    float: right;
+    height: 250px;
+    border-radius: 20px;
+}
+
+.twister_img{
+    padding-top: 58px;
+    width: 269px;
+    position: relative;
+    left: 26px;
+}
+
+.twister_details{
+    float: right;
+    position: relative;
+    color: white;
+    font-size: 25px;
+    top: 23px;
+    right: 65px;
+}
+
+.twister__addbtn{
+    width: 200px;
+    border-radius: 8px;
+    height: 35px;
+    background-color: lime;
+    cursor: pointer;
+    position: relative;
+    bottom: 15px;
+}
+
+.twister_remove_btn{
+    width: 200px;
+    border-radius: 8px;
+    height: 35px;
+    background-color: darkred;
+    display:none;
+    cursor: pointer;
+    position: relative;
+    bottom: 15px;
+}
+
+.twister_paragraph{
+    opacity: 20%;
+    position: relative;
+    bottom: 252px;
+}
+
+.twister_img_small{
+    width: 91px;
+    position: relative;
+    top: 16px;
+    left: 6px;
+}
+
+.supreme_container{
+    width: 600px;
+    background-color: deepskyblue;
+    position: relative;
+    top: 265px;
+    float: left;
+    height: 250px;
+    left: 58px;
+    border-radius: 20px;
+}
+
+.supreme_img{
+    padding-top: 18px;
+    width: 205px;
+    position: relative;
+    left: 20px;
+}
+
+.supreme_details{
+    float: right;
+    position: relative;
+    top: 20px;
+    right: 58px;
+    color: white;
+    font-size: 25px;
+}
+
+.supreme__addbtn{
+    width: 200px;
+    border-radius: 8px;
+    height: 35px;
+    background-color: lime;
+    cursor: pointer;
+}
+
+.supreme_remove_btn{
+    width: 200px;
+    border-radius: 8px;
+    height: 35px;
+    background-color: darkred;
+    display:none;
+    cursor: pointer;
+}
+
+.supreme_paragraph{
+    opacity: 20%;
+    position: relative;
+    bottom: 300px;
+}
+
+.supreme_img_small{
+    width: 80px;
+    position: relative;
+    top: 16px;
+    left: 6px;
+}
+
+.big_chick_container{
+    width: 600px;
+    background-color: deepskyblue;
+    position: relative;
+    right: 77px;
+    top: 263px;
+    float: right;
+    height: 250px;
+    border-radius: 20px;
+}
+
+.big_chick_img{
+    width: 269px;
+    position: relative;
+    left: 6px;
+    bottom: 6px;
+}
+
+.big_chick_details{
+    float: right;
+    position: relative;
+    color: white;
+    font-size: 25px;
+    top: 23px;
+    right: 99px;
+}
+
+.big_chick__addbtn{
+    width: 200px;
+    border-radius: 8px;
+    height: 35px;
+    background-color: lime;
+    cursor: pointer;
+    position: relative;
+    bottom: 15px;
+}
+
+.big_chick_remove_btn{
+    width: 200px;
+    border-radius: 8px;
+    height: 35px;
+    background-color: darkred;
+    display:none;
+    cursor: pointer;
+    position: relative;
+    bottom: 15px;
+}
+
+.big_chick_paragraph{
+    opacity: 20%;
+    position: relative;
+    bottom: 344px;
+}
+
+.big_chick_img_small{
+    width: 81px;
+    position: relative;
+    top: 24px;
+    left: 6px;
 }
 
 .cart_content{
@@ -213,7 +628,8 @@
     font-size: 25px;
     position: relative;
     bottom: 0;
-    left: 220px;
+    right: 230px;
+    float: right;
 }
 
 .lines_left{
