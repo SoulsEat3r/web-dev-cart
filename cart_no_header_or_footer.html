@@ -27,6 +27,32 @@
         </div>
     </div>
 
+    <div class="kids_chicken_leg_container">
+        <img src="chicken_leg.png" class="kids_chicken_leg_img">
+        <div class="kids_chicken_leg_details">
+            <p>Chicken Legs Meal</p>
+            <br>
+            <p>20 EGP</p>
+            <br>
+            <button class="kids_chicken_leg_add_btn" onclick="kids_chicken_leg_add()">Add to Cart</button>
+            <button id="kids_chicken_leg_remove_btnid" class="kids_chicken_leg_remove_btn" onclick="kids_chicken_leg_remove()">Remove from cart</button>
+        </div>
+    </div>
+
+    <div class="kids_chicken_strips_container">
+        <img src="chicken_strips.png" class="kids_chicken_strips_img">
+        <div class="kids_chicken_strips_details">
+            <p>Chicken Strips Meal</p>
+            <br>
+            <p>20 EGP</p>
+            <br>
+            <button class="kids_chicken_strips_add_btn" onclick="kids_chicken_strips_add()">Add to Cart</button>
+            <button id="kids_chicken_strips_remove_btnid" class="kids_chicken_strips_remove_btn" onclick="kids_chicken_strips_remove()">Remove from cart</button>
+        </div>
+    </div>
+
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
     <div class="main_meals_container">
         <p class="main_meals_header">Main Meals</p>
     </div>
@@ -43,8 +69,70 @@
         </div>
     </div>
 
+    <div class="family_box_container">
+        <img src="family_box.png" class="family_box_img">
+        <div class="family_box_details">
+            <p>Family Box</p>
+            <p class="family_box_details_paragraph">(8 Pieces of chicken , 2 Fries and 2 cola)</p>
+            <br>
+            <p>120 EGP</p>
+            <br>
+            <button class="family_box__addbtn" onclick="family_box_add()">Add to Cart</button>
+            <button id="family_box_remove_btnid" class="family_box_remove_btn" onclick="family_box_remove()">Remove from cart</button>
+        </div>
+
+        <div class="double_down_container">
+            <img src="double_down.png" class="double_down_img">
+            <div class="double_down_details">
+                <p>Double Down</p>
+                <br>
+                <p>50 EGP</p>
+                <br>
+                <button class="double_down__addbtn" onclick="double_down_add()">Add to Cart</button>
+                <button id="double_down_remove_btnid" class="double_down_remove_btn" onclick="double_down_remove()">Remove from cart</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="twister_container">
+        <img src="twister.png" class="twister_img">
+        <div class="twister_details">
+            <p>Twister Sandwich</p>
+            <br>
+            <p>50 EGP</p>
+            <br>
+            <button class="twister__addbtn" onclick="twister_add()">Add to Cart</button>
+            <button id="twister_remove_btnid" class="twister_remove_btn" onclick="twister_remove()">Remove from cart</button>
+        </div>
+    </div>
+
+    <div class="supreme_container">
+        <img src="supreme.png" class="supreme_img">
+        <div class="supreme_details">
+            <p>Supreme Sandwich Meal</p>
+            <P>(with 1 cola and 1 fries)</P>
+            <br>
+            <p>70 EGP</p>
+            <br>
+            <button class="supreme__addbtn" onclick="supreme_add()">Add to Cart</button>
+            <button id="supreme_remove_btnid" class="supreme_remove_btn" onclick="supreme_remove()">Remove from cart</button>
+        </div>
+    </div>
+
+    <div class="big_chick_container">
+        <img src="big_chick.png" class="big_chick_img">
+        <div class="big_chick_details">
+            <p>Big Chick Out</p>
+            <br>
+            <p>80 EGP</p>
+            <br>
+            <button class="big_chick__addbtn" onclick="big_chick_add()">Add to Cart</button>
+            <button id="big_chick_remove_btnid" class="big_chick_remove_btn" onclick="big_chick_remove()">Remove from cart</button>
+        </div>
+    </div>
+
     
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
     <div class="cart_body_container">
         <div class="cart_content">
@@ -56,7 +144,21 @@
             <br>
             <p id="kids_chicken_burger_paragraphid" class="kids_chicken_burger_paragraph">x<span id="kids_chicken_burger_counter"></span>  Chicken Burger Meal , Price : <span id="kids_chicken_burger_price"></span> EGP <img class="kids_chicken_burger_img_small" src="kidschickenburger.png"></p>
             <br>
+            <p id="kids_chicken_leg_paragraphid" class="kids_chicken_leg_paragraph">x<span id="kids_chicken_leg_counter"></span>  Chicken Leg Meal , Price : <span id="kids_chicken_leg_price"></span> EGP <img class="kids_chicken_leg_img_small" src="chicken_leg.png"></p>
+            <br>
+            <p id="kids_chicken_strips_paragraphid" class="kids_chicken_strips_paragraph">x<span id="kids_chicken_strips_counter"></span>  Chicken Strips Meal , Price : <span id="kids_chicken_strips_price"></span> EGP <img class="kids_chicken_strips_img_small" src="chicken_strips.png"></p>
+            <br>
             <p id="double_chicken_paragraphid" class="double_chicken_paragraph">x<span id="double_chicken_counter"></span> Double Chicken Sandwich , Price : <span id="double_chicken_price"></span> EGP <img class="double_chicken_img_small" src="doublechicken.png"></p>
+            <br>
+            <p id="family_box_paragraphid" class="family_box_paragraph">x<span id="family_box_counter"></span> Family Box Meal , Price : <span id="family_box_price"></span> EGP <img class="family_box_img_small" src="family_box.png"></p>
+            <br>
+            <p id="double_down_paragraphid" class="double_down_paragraph">x<span id="double_down_counter"></span> Double Down , Price : <span id="double_down_price"></span> EGP <img class="double_down_img_small" src="double_down.png"></p>
+            <br>
+            <p id="twister_paragraphid" class="twister_paragraph">x<span id="twister_counter"></span> Twister Sandwich , Price : <span id="twister_price"></span> EGP <img class="twister_img_small" src="twister.png"></p>
+            <br>
+            <p id="supreme_paragraphid" class="supreme_paragraph">x<span id="supreme_counter"></span> Supreme Sandwich Meal , Price : <span id="supreme_price"></span> EGP <img class="supreme_img_small" src="supreme.png"></p>
+            <br>
+            <p id="big_chick_paragraphid" class="big_chick_paragraph">x<span id="big_chick_counter"></span> Big Chick Out , Price : <span id="big_chick_price"></span> EGP <img class="big_chick_img_small" src="big_chick.png"></p>
         </div>
 
         <div class="order_summary">
@@ -80,5 +182,6 @@
             </form>
         </div>
     </div>
-  
+
+
     <br><br>
